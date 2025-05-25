@@ -8,3 +8,40 @@ header .slogan {
     font-weight: bold;
     color: #2c3e50;
 }
+nav {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 22%;
+    height: 80%;
+    background-color: #EFE2DB;
+    padding-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: left;
+}
+
+nav a:link {
+    text-decoration: none;
+    font: 90% Georgia;
+    color: rgb(145, 3, 250);
+    background-color: transparent;
+}
+
+nav a:visited {
+    text-decoration: none;
+    font: 90% Georgia;
+    color: rgb(29, 9, 244);
+    background-color: transparent;
+}
+
+nav a:hover {
+    color: green;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
